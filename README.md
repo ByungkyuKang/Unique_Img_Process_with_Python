@@ -14,7 +14,6 @@ Unique folder: contains original, non-duplicate images
 Duplicate folder: contains duplicates for easy review and removal
 
 🔧 Current Status
-Core logic implemented and functional.
 Actively refining performance and accuracy of image comparison.
 
 🗂 Files
