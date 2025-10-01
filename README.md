@@ -2,7 +2,7 @@
 
 📌 Overview
 
-Automated Duplicate Image Organizer is a Python-based console application designed to simplify personal photo management. It consolidates images from multiple directories and removes duplicates to create a clean, well-organized backup.
+Automated Duplicate Image Organizer is a Python-based console application designed to help organize image files. Similar images will have the same numbers at the beginning of the image file names.
 
 
 🎯 Motivation
@@ -13,41 +13,13 @@ Managing photos from different apps and sources often leads to scattered duplica
 ⚙️ How It Works
 
 Collects images from user-specified directories.
-Generates hash values for each image and performs resized image comparisons for higher accuracy.
+Run cv2 image comparison and hash value comparison for higher accuracy.
 Organizes results into:
-Unique folder: contains original, non-duplicate images
-Duplicate folder: contains duplicates for easy review and removal
 
 
 🔧 Current Status
 
-Actively refining performance and accuracy of image comparison.
-
-
-🗂 Files
-
-image_process_main.py: Main execution file.
-
-dir_setting.py: Handles working directory setup and folder creation.
-
-    - Methods:
-
-        to_dir(dir_in): Move working directory to dir_in.
-        make_dirs(uniq_dir, dups_dir): Create directories for unique and duplicate images.
-
-img_processing.py: Handles image hashing, resizing, and comparison.
-
-    - Classes:
-    
-        - Img_existence: Manages user-provided directories.
-        
-            - check_dir(): Returns list of image names if images exist; empty list otherwise.
-        
-        - Hash_comp: Classifies images into unique or duplicate folders.
-        
-            - hashes_comp_process(): Computes image hashes, classifies images, moves them to corresponding directories, and returns log contents.
-        
-        - Reduce_size_comp (in progress)
+Actively refining the performance and accuracy of image comparison.
         
             - reduce_size_process(): Resize-based comparison under development.
 
