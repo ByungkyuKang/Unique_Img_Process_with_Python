@@ -21,8 +21,6 @@ Organizes results into:
 
 Actively refining the performance and accuracy of image comparison.
         
-            - reduce_size_process(): Resize-based comparison under development.
-
 
 🌐 GitHub Repository:
 
