@@ -58,4 +58,4 @@ class img_comp_processes():
             if curr_image_hash == list_image_hash:
                 might_be_similar_imgs.append(image)
                 
-        return might_be_similar_imgs
+        return might_be_similar_imgs 

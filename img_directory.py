@@ -29,4 +29,4 @@ def move_dir_chk_img(dir_in):
         notification_msg = "No images found in the directory. " 
         notification_msg += "Exiting the program."
         print( notification_msg )
-    return image_files
+    return image_files 

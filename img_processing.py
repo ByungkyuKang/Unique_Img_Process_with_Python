@@ -27,4 +27,4 @@ def image_process( img_list ):
 
     # Change image names and group them by the numbers added to the names
     sorted_dict_by_number = sorted(img_name_dict.items(), key=lambda item: item[1])
-    inc.name_change(sorted_dict_by_number)
+    inc.name_change(sorted_dict_by_number) 

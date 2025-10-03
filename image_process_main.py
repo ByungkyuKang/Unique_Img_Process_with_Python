@@ -20,4 +20,4 @@ img_exist = ds.move_dir_chk_img(image_dir)
 
 # Start the process
 # This will group similar images changing their names
-imgp.image_process(img_exist)
+imgp.image_process(img_exist) 

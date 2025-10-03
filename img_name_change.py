@@ -20,4 +20,4 @@ def name_change(sorted_list):
     while inc_indx < len(sorted_df):
         temp_name = str(sorted_df.loc[inc_indx, 1]) + sorted_df.loc[inc_indx, 0]
         os.rename(sorted_df.loc[inc_indx, 0], temp_name)
-        inc_indx += 1
+        inc_indx += 1 
