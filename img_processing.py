@@ -3,7 +3,10 @@ import img_name_change as inc
 
 # Set values to 0
 def image_process( img_list ):
-    """  """
+    """ This method gathers image files, and prepare for the entire processes,
+        such as the dictionary to store image names and their group numbers.
+        This method calls the comparing method in img_comp,
+        the name change method in img_name_change. """
     img_name_dict = {}
     for img_name in img_list:
         img_name_dict[img_name] = 0

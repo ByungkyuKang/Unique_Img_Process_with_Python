@@ -19,7 +19,7 @@ def move_dir_chk_img(dir_in):
 
     # Check if images exist
     image_extensions = ('.jpg', '.jpeg', '.png', 
-                            '.gif', '.bmp', '.tiff', '.webp')
+                        '.gif', '.bmp', '.tiff', '.webp')
     image_files = [f for f in os.listdir(dir_in) 
                         if f.lower().endswith(image_extensions)]
     
